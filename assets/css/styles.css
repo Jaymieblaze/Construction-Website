@@ -167,7 +167,7 @@ img {
     .nav__menu{
         position: fixed;
         top: 0;
-        right: 0;
+        right: -100%;
         background-color: var(--black-color);
         width: 80%;
         height: 100%;
@@ -197,6 +197,11 @@ img {
     position: absolute;
     top: 1rem;
     right: 1.5rem;
+}
+
+/* Show Menu */
+.show-menu {
+    right: 0;
 }
 
 /* Button */
